@@ -30,8 +30,8 @@ for term in terms:
 
 client = boto3.resource('dynamodb',
                       region_name='us-east-1',
-                      aws_access_key_id='AKIAILM7VF356JT7DQRQ',
-                      aws_secret_access_key='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')
+                      aws_access_key_id='',
+                      aws_secret_access_key='')
 table = client.Table('yelp-restaurants')
 
 
